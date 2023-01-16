@@ -1,6 +1,7 @@
 package com.rizalfadiaalfikri.test;
 
 import com.rizalfadiaalfikri.test.generator.SimpleDisplayNameGenerator;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
@@ -31,4 +32,11 @@ public class CalculatorTest {
            calculator.divide(10, 0);
         });
     }
+
+    @Test
+    @Disabled
+    public void testComingSoon() {
+
+    }
+
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rizalfadiaalfikri.test.CalculatorTest" time="0.097" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rizalfadiaalfikri.test.CalculatorTest" time="0.384" tests="4" errors="0" skipped="1" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\ASUS\AppData\Local\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire369596001244490210\surefirebooter9435272105002031628.jar C:\Users\ASUS\AppData\Local\Temp\surefire369596001244490210 2023-01-16T08-14-34_020-jvmRun1 surefire14427831823024769294tmp surefire_010444906661591956552tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire6439332378846582660\surefirebooter6405454652308494246.jar C:\Users\ASUS\AppData\Local\Temp\surefire6439332378846582660 2023-01-16T19-46-19_403-jvmRun1 surefire1131151073711463735tmp surefire_01464587342077347194tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\program\Programer Zaman Now\Java\Java Unit Test\belajar-java-unit-test\target\test-classes;D:\program\Programer Zaman Now\Java\Java Unit Test\belajar-java-unit-test\target\classes;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire369596001244490210\surefirebooter9435272105002031628.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire6439332378846582660\surefirebooter6405454652308494246.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -60,5 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAddSuccess" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0.079"/>
+  <testcase name="testDivideFailed" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0.22"/>
+  <testcase name="testAddSuccess" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0"/>
+  <testcase name="testComingSoon" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0">
+    <skipped message="public void com.rizalfadiaalfikri.test.CalculatorTest.testComingSoon() is @Disabled"/>
+  </testcase>
+  <testcase name="testDivideSuccess" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0"/>
 </testsuite>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.rizalfadiaalfikri.test.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s - in com.rizalfadiaalfikri.test.CalculatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.384 s - in com.rizalfadiaalfikri.test.CalculatorTest
