@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rizalfadiaalfikri.test.CalculatorTest" time="0.141" tests="6" errors="0" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rizalfadiaalfikri.test.SampleIntegrationTest" time="0.07" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\ASUS\AppData\Local\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire2206824505748800910\surefirebooter13922631481097225938.jar C:\Users\ASUS\AppData\Local\Temp\surefire2206824505748800910 2023-01-18T08-40-22_451-jvmRun1 surefire12436142240069948065tmp surefire_010896722045178947836tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire14682745171972292865\surefirebooter15217702981687128506.jar C:\Users\ASUS\AppData\Local\Temp\surefire14682745171972292865 2023-01-18T08-40-37_683-jvmRun1 surefire11367887504722118083tmp surefire_012890302535227337540tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\program\Programer Zaman Now\Java\Java Unit Test\belajar-java-unit-test\target\test-classes;D:\program\Programer Zaman Now\Java\Java Unit Test\belajar-java-unit-test\target\classes;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire2206824505748800910\surefirebooter13922631481097225938.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire14682745171972292865\surefirebooter15217702981687128506.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9"/>
@@ -48,9 +48,9 @@
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.2"/>
-    <property name="groupw" value="integration-test"/>
     <property name="user.dir" value="D:\program\Programer Zaman Now\Java\Java Unit Test\belajar-java-unit-test"/>
     <property name="os.arch" value="amd64"/>
+    <property name="groups" value="integration-test"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
@@ -61,27 +61,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAborted" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0">
-    <skipped message="Test dibatalkan karena bukan DEV" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Test dibatalkan karena bukan DEV
-	at com.rizalfadiaalfikri.test.CalculatorTest.testAborted(CalculatorTest.java:66)
-</skipped>
-    <system-out><![CDATA[Before ALl
-Before Each
-After Each
-]]></system-out>
-  </testcase>
-  <testcase name="testDivideFailed" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0.007"/>
-  <testcase name="testAddSuccess" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0.008"/>
-  <testcase name="testComingSoon" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0">
-    <skipped message="public void com.rizalfadiaalfikri.test.CalculatorTest.testComingSoon() is @Disabled"/>
-  </testcase>
-  <testcase name="testAssumptions" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0">
-    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at com.rizalfadiaalfikri.test.CalculatorTest.testAssumptions(CalculatorTest.java:74)
-</skipped>
-    <system-out><![CDATA[Before Each
-After Each
-]]></system-out>
-  </testcase>
-  <testcase name="testDivideSuccess" classname="com.rizalfadiaalfikri.test.CalculatorTest" time="0.002"/>
+  <testcase name="test1" classname="com.rizalfadiaalfikri.test.SampleIntegrationTest" time="0.048"/>
+  <testcase name="test2" classname="com.rizalfadiaalfikri.test.SampleIntegrationTest" time="0.001"/>
 </testsuite>
